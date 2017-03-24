@@ -9,7 +9,6 @@ import javax.persistence.OneToMany;
  */
 @Entity
 public class Admin extends User implements Serializable {
-
    
     /**
      * bi directionnalite
