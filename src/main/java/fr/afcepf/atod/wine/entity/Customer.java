@@ -10,7 +10,14 @@ import javax.persistence.OneToMany;
  */
 @Entity
 public class Customer extends User implements Serializable {
+
     /**
+     * activated
+     */
+    @Column(name = "activated", columnDefinition = "tinyInt(1) default '0'" ,nullable = true)
+	private Boolean activated;
+	
+	/**
      * comments
      */
     @OneToMany(mappedBy = "customer")
@@ -46,11 +53,7 @@ public class Customer extends User implements Serializable {
      * @param civility
      * @param adress
      * @param activated 
-     */
-    
-    @Column(name = "activated", columnDefinition = "tinyInt(1) default '0'" ,nullable = true)
-	private Boolean activated;
-    
+     */       
     
     public Customer(Integer id, String lastname, 
                     String firstname, Date birthdate, String email,
