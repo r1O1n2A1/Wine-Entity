@@ -3,6 +3,7 @@ package fr.afcepf.atod.wine.entity;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
@@ -79,6 +80,9 @@ public class Product implements Serializable {
 	 * suppliers
 	 */
 	private Set<ProductSupplier> productSuppliers = new HashSet<ProductSupplier>(0);
+	
+	@Transient
+	private List<String> imgsWS;
 
 	// -------- Constructors ------------ //
 
@@ -215,5 +219,14 @@ public class Product implements Serializable {
 		return "Product [id=" + idProduct + ", name=" + name + ", price=" + price + ", description=" + description
 				+ "]";
 	}
+	
+	@Transient
+	public List<String> getImgsWS() {
+		return imgsWS;
+	}
 
+	public void setImgsWS(List<String> imgsWS) {
+		this.imgsWS = imgsWS;
+	}
+	
 }
