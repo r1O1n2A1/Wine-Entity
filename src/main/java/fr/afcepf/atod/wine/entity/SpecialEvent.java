@@ -19,7 +19,7 @@ import javax.persistence.Transient;
 /**
  * 
  */
-@Table(name = "SpecialEvent")
+@Table(name = "specialevent")
 @Entity
 public class SpecialEvent implements Serializable {
 	@Transient

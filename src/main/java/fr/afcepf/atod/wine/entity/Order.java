@@ -16,7 +16,7 @@ import javax.persistence.Transient;
 /**
  * by roro
  */
-@Table(name = "Ordering")
+@Table(name = "ordering")
 @Entity
 public class Order implements Serializable {
     /**

@@ -12,7 +12,7 @@ import javax.persistence.Transient;
 /**
  * 
  */
-@Table(name = "ShippingMethod")
+@Table(name = "shippingmethod")
 @Entity
 public class ShippingMethod {
     @Transient

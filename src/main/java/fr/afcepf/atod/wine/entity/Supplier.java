@@ -17,7 +17,7 @@ import javax.persistence.Transient;
  * by roro
  */
 @Entity
-@Table(name = "Supplier")
+@Table(name = "supplier")
 public class Supplier implements Serializable{
     /**
      * size columns

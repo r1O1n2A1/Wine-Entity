@@ -18,7 +18,7 @@ import javax.persistence.Transient;
  * by roroab
  */
 @Entity
-@Table(name = "Region")
+@Table(name = "region")
 public class Region implements Serializable {
     /**
      * useful size columns

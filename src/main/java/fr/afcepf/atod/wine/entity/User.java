@@ -21,7 +21,7 @@ import javax.persistence.Transient;
  * by Roro @RL On netbeans 8.1
  */
 @Entity
-@Table(name = "User")
+@Table(name = "user")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class User implements Serializable {
     /**

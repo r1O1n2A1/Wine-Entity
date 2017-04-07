@@ -27,7 +27,7 @@ import javax.persistence.Transient;
  * by roro
  */
 @Entity
-@Table(name = "Product")
+@Table(name = "product")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Product implements Serializable {
 	@Transient

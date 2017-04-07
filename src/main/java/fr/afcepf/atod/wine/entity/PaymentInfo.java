@@ -13,7 +13,7 @@ import javax.persistence.Transient;
 /**
  * by roro
  */
-@Table(name = "PaymentInfo")
+@Table(name = "paymentinfo")
 @Entity
 public class PaymentInfo implements Serializable {
 

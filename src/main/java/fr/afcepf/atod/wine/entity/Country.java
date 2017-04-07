@@ -13,7 +13,7 @@ import javax.persistence.Transient;
 /**
  * by roro
  */
-@Table(name = "Country")
+@Table(name = "country")
 @Entity
 public class Country implements Serializable {
     /**

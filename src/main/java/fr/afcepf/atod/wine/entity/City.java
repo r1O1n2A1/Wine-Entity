@@ -18,7 +18,7 @@ import javax.persistence.Transient;
  * by roro
  */
 @Entity
-@Table(name = "City")
+@Table(name = "city")
 public class City implements Serializable {
     /**
      * max size columns

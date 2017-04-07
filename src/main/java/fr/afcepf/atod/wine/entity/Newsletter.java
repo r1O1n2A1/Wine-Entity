@@ -16,7 +16,7 @@ import javax.persistence.Transient;
 /**
  * creation table Newsletter
  */
-@Table(name = "Newsletter")
+@Table(name = "newsletter")
 @Entity
 public class Newsletter implements Serializable {
     @Transient
